@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   root 'landing#index'
 
+  get 'login', to: 'landing#index'
+  get 'register', to: 'landing#register'
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
