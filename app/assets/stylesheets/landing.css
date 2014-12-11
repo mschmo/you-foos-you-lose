@@ -2,12 +2,11 @@
 /* ##########  */
 /*   $GLOBAL   */
 /* ##########  */
-/* line 10, ../sass/typica-login.scss */
+
 html {
   height: 100%;
 }
 
-/* line 13, ../sass/typica-login.scss */
 body {
   background: url(landing_background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -16,18 +15,16 @@ body {
   background-size: cover;
 }
 @media (min-width: 979px) {
-  /* line 13, ../sass/typica-login.scss */
+
   body {
     padding-top: 80px;
   }
 }
 
-/* line 21, ../sass/typica-login.scss */
 .blue {
   color: #447fc8;
 }
 
-/* line 25, ../sass/typica-login.scss */
 .btn-black {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -38,57 +35,15 @@ body {
   color: white;
   text-shadow: none;
 }
-/* line 33, ../sass/typica-login.scss */
+
 .btn-black:hover {
   background: #333333;
   color: white;
 }
 
-/* ########### */
-/* $NAVIGATION */
-/* ########### */
-/* line 43, ../sass/typica-login.scss */
-.navbar .brand {
-  margin-top: 20px;
-  padding-bottom: 8px;
-  max-height: 40px;
-  width: auto;
-}
-/* line 49, ../sass/typica-login.scss */
-.navbar .navbar-inner {
-  height: 80px;
-  background: white;
-  filter: none;
-}
-/* line 54, ../sass/typica-login.scss */
-.navbar .nav {
-  margin-top: 20px;
-}
-/* line 56, ../sass/typica-login.scss */
-.navbar .nav > li > a {
-  padding: 10px 10px 11px;
-  color: #333;
-  text-shadow: none;
-}
-/* line 63, ../sass/typica-login.scss */
-.navbar .nav > li > a:hover {
-  color: #111;
-}
-/* line 67, ../sass/typica-login.scss */
-.navbar .nav > li.active > a {
-  background: none;
-  color: #111;
-}
-/* line 70, ../sass/typica-login.scss */
-.navbar .nav > li.active > a:hover {
-  background: none;
-  color: #111;
-}
-
 /* ####### */
 /* $LOGIN  */
 /* ####### */
-/* line 80, ../sass/typica-login.scss */
 #login-wraper {
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -111,31 +66,30 @@ body {
   text-align: center;
 }
 
-/* line 97, ../sass/typica-login.scss */
 .login-form legend {
   margin-top: 5px;
   margin-bottom: 30px;
   padding-bottom: 25px;
 }
-/* line 102, ../sass/typica-login.scss */
+
 .login-form .body {
   padding-bottom: 30px;
   border-bottom: 1px solid #eeeeee;
 }
-/* line 106, ../sass/typica-login.scss */
+
 .login-form .footer {
   margin-top: 20px;
 }
-/* line 108, ../sass/typica-login.scss */
+
 .login-form .footer .checkbox.inline {
   display: inline;
 }
-/* line 110, ../sass/typica-login.scss */
+
 .login-form .footer .checkbox.inline input[type="checkbox"] {
   float: none;
   margin-top: -4px;
 }
-/* line 115, ../sass/typica-login.scss */
+
 .login-form .footer .btn {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -148,7 +102,6 @@ body {
 /* ######### */
 /* $REGISTER */
 /* ######### */
-/* line 127, ../sass/typica-login.scss */
 #register-wraper {
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -166,65 +119,62 @@ body {
   text-align: center;
 }
 
-/* line 137, ../sass/typica-login.scss */
 #register-form {
   margin: 0 auto;
   width: 350px;
 }
-/* line 140, ../sass/typica-login.scss */
+
 #register-form .control-inline {
   display: inline-block;
 }
-/* line 143, ../sass/typica-login.scss */
+
 #register-form legend {
   margin-bottom: 15px;
   border-bottom: none;
 }
-/* line 147, ../sass/typica-login.scss */
+
 #register-form input.input-huge {
   width: 318px;
 }
-/* line 150, ../sass/typica-login.scss */
+
 #register-form .control-group {
   margin-bottom: 0;
 }
-/* line 153, ../sass/typica-login.scss */
+
 #register-form .checkbox.inline {
   margin-bottom: 10px;
   padding: 0;
   font-size: 98%;
 }
-/* line 157, ../sass/typica-login.scss */
+
 #register-form .checkbox.inline input {
   margin-right: 10px;
 }
-/* line 161, ../sass/typica-login.scss */
+
 #register-form .body {
   overflow-y: auto;
   height: auto;
 }
-/* line 165, ../sass/typica-login.scss */
+
 #register-form .btn {
   padding: 10px 40px;
   background-image: none;
   box-shadow: none;
 }
 
-/* line 171, ../sass/typica-login.scss */
 .register-info-wraper {
   background: rgba(0, 0, 0, 0.2);
 }
 
-/* line 174, ../sass/typica-login.scss */
 #register-info {
   position: relative;
   padding: 25px;
 }
-/* line 177, ../sass/typica-login.scss */
+
 #register-info ul {
   margin-right: 25px;
 }
-/* line 179, ../sass/typica-login.scss */
+
 #register-info ul li {
   margin-bottom: 25px;
 }
@@ -232,8 +182,9 @@ body {
 /* ####### */
 /* $FOOTER */
 /* ####### */
-/* line 185, ../sass/typica-login.scss */
+
 footer.white {
+  padding-bottom: 0;
   padding-top: 20px;
   height: 50px;
   background: white;
@@ -243,18 +194,7 @@ footer.white {
 /* ###### */
 /* $FONTS */
 /* ###### */
-/* navigation */
-/* line 7, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
-.navbar {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
-  font-weight: 800;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
 /* login form */
-/* line 17, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
 .login-form legend {
   font-family: 'Lato', Helvetica, sans-serif;
   font-size: 36px;
@@ -263,7 +203,6 @@ footer.white {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
-/* line 24, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
 .login-form label {
   font-family: 'Lato', Helvetica, sans-serif;
   font-size: 20px;
@@ -272,7 +211,6 @@ footer.white {
 }
 
 /* register form */
-/* line 32, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
 #register-form legend {
   font-family: 'Lato', Helvetica, sans-serif;
   font-size: 36px;
@@ -280,7 +218,7 @@ footer.white {
   color: #333333;
   -webkit-font-smoothing: subpixel-antialiased;
 }
-/* line 39, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
+
 #register-form label {
   font-family: 'Lato', Helvetica, sans-serif;
   font-size: 18px;
@@ -289,7 +227,6 @@ footer.white {
 }
 
 /* register info */
-/* line 48, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
 #register-info h1 {
   font-size: 42px;
   font-family: "PT Sans", Arial, Helvetica, sans-serif;
@@ -299,7 +236,7 @@ footer.white {
   padding-bottom: 50px;
   color: white;
 }
-/* line 57, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
+
 #register-info ul {
   text-align: right;
   color: white;
@@ -308,7 +245,6 @@ footer.white {
 }
 
 /* footer */
-/* line 66, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
 footer.navbar-fixed-bottom {
   font-size: 16px;
   font-family: "PT Sans", Arial, Helvetica, sans-serif;
@@ -322,26 +258,6 @@ footer.navbar-fixed-bottom {
 /* Portrait tablet*/
 @media (max-width: 980px) {
   /* logo margin fix */
-  /* line 8, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
-  .navbar {
-    height: auto;
-    margin-bottom: 0;
-  }
-  /* line 9, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
-  .navbar .brand {
-    margin-top: 0;
-  }
-  /* line 14, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
-  .navbar .navbar-inner {
-    height: auto;
-  }
-
-  /* line 18, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
-  .navbar .nav > li > a:hover {
-    color: white;
-  }
-
-  /* line 21, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
   #login-wraper {
     position: relative;
     top: 0;
@@ -349,7 +265,6 @@ footer.navbar-fixed-bottom {
   }
 }
 @media (max-width: 495px) {
-  /* line 29, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
   #login-wraper {
     width: auto;
     height: auto;
@@ -358,25 +273,24 @@ footer.navbar-fixed-bottom {
     left: 0;
   }
 
-  /* line 36, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
   #register-form {
     width: auto;
   }
-  /* line 38, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
+
   #register-form .control-inline {
     display: block;
   }
-  /* line 41, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
+
   #register-form input {
     display: block;
     margin: 0 auto;
   }
-  /* line 44, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
+
   #register-form input.input-huge, #register-form input.input-medium {
     width: auto;
     display: block;
   }
-  /* line 49, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
+
   #register-form .btn {
     display: block;
     margin: 0 auto;
