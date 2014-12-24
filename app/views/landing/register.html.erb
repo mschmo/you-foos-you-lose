@@ -1,3 +1,5 @@
+<% @page_title = "You Foos You Lose | Register" %>
+
 <div class="container">
   <div class="row">
 
@@ -17,8 +19,9 @@
 
     <div class="span6">
       <div id="register-wraper">
+        <%= form_for(:user, :url => {:controller => 'users', :action => 'create'}, :html => {:class => "form", :id => 'register-form'}) do |f| %>
         <form id="register-form" class="form">
-          <legend>Register to <span class="blue">FoosAlytics</span></legend>
+          <legend>Register for <span class="blue">FoosAlytics</span></legend>
           <div class="body">
             <div class="control-group control-inline">
               <label for="name">First name</label>
@@ -41,7 +44,7 @@
             </label>
             <button type="submit" class="btn btn-success">Register</button>
           </div>
-        </form>
+        <% end %>
       </div>
     </div>
 

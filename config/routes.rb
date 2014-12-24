@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'login', to: 'landing#index'
   get 'register', to: 'landing#register'
 
+  post ':controller(/:action(/:id))(.:format)'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
